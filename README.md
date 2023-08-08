@@ -25,6 +25,6 @@ As a result, you might encounter issues when attempting to download files from w
 
 - Anas
 
-##UI
+## UI
 
 ![image](https://github.com/Anasdevs/File-Downloader/assets/68700511/e9c83585-d92c-4b48-a3a9-64b0bd530654)
