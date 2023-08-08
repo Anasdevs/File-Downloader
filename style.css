@@ -1,0 +1,95 @@
+
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    min-width: 100vw;
+    overflow: hidden;
+    background: linear-gradient(to bottom, #ada996, #f2f2f2, #dbdbdb, #eaeaea);
+    font-family: 'PT Sans Caption', sans-serif;
+    line-height: 1.5;
+    color: #333;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 8%;
+    padding: 0 20px; 
+    box-sizing: border-box;
+}
+
+.container h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+.container p {
+    font-family:'PT Sans Caption', sans-serif;
+    font-weight: 300;
+    font-size: 12px;
+}
+
+input {
+    height: 50px;
+    width: 80vw; 
+    max-width: 500px;
+    border-radius: 30px;
+    border: 2px solid transparent;
+    padding: 0 15px;
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+input:focus {
+    outline: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+button[type="submit"] {
+    display: inline-block;
+    padding: 14px 32px;
+    font-size: 15px;
+    width: 50%; 
+    margin: 5%;
+    font-weight: bold;
+    color: #fff;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    background: linear-gradient(to right, #0052d4, #4364f7, #6fb1fc);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s, box-shadow 0.2s, background-color 0.3s;
+    outline: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+button[type="submit"]:hover {
+    background: linear-gradient(45deg, #00a8ff, #007bff);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+    transform: translateY(-2px);
+}
+
+button[type="submit"]:active {
+    background: linear-gradient(45deg, #007bff, #00a8ff);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
+    transform: translateY(1px);
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.footer p {
+    font-family: 'PT Sans Caption', sans-serif;
+    font-size: 15px;
+}
